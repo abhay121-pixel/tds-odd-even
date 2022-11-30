@@ -1,9 +1,10 @@
 import streamlit as st
-st.title('GA 8')
-st.subheader('Check if number is ODD or Even')
+st.title('TDS 8')
+st.subheader('Check if number is odd or even')
 placeholder_number = st.empty()
-n = placeholder_number.number_input('Enter your number')
-if float(n)%2 == 0:
-	st.write('EVEN Number')
+m = placeholder_number.number_input('Enter your number')
+if float(m)%2 == 0:
+	st.write('even number')
   else:
-    st.write('ODD Number')
+    st.write('odd number')
+st.write("Abhaysingh-21f1002151")
